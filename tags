@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR	RIoTboard_6solo/BoardConfig.mk	/^BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device\/fsl\/RIoTboard_6solo\/bluetooth$/;"	m
+BOARD_HAS_SENSOR	RIoTboard_6solo/BoardConfig.mk	/^BOARD_HAS_SENSOR := true$/;"	m
+BOARD_HOSTAPD_DRIVER	RIoTboard_6solo/BoardConfig.mk	/^BOARD_HOSTAPD_DRIVER         := NL80211$/;"	m
+BOARD_KERNEL_CMDLINE	RIoTboard_6solo/BoardConfig.mk	/^BOARD_KERNEL_CMDLINE := console=ttymxc1,115200 init=\/init video=mxcfb0:dev=ldb,bpp=32 video=mxcfb1:off video=mxcfb2:off fbmem=10M fb0base=0x27b00000 vmalloc=400M androidboot.console=ttymxc1 androidboot.hardware=freescale$/;"	m
+BOARD_MODEM_VENDOR	RIoTboard_6solo/BoardConfig.mk	/^BOARD_MODEM_VENDOR := AMAZON$/;"	m
+BOARD_USE_AR3K_BLUETOOTH	RIoTboard_6solo/BoardConfig.mk	/^BOARD_USE_AR3K_BLUETOOTH := true$/;"	m
+BOARD_WPA_SUPPLICANT_DRIVER	RIoTboard_6solo/BoardConfig.mk	/^BOARD_WPA_SUPPLICANT_DRIVER     := NL80211$/;"	m
+BTA_DM_COD	RIoTboard_6solo/bluetooth/bdroid_buildcfg.h	27;"	d
+BTIF_HF_SERVICES	RIoTboard_6solo/bluetooth/bdroid_buildcfg.h	29;"	d
+BTIF_HF_SERVICE_NAMES	RIoTboard_6solo/bluetooth/bdroid_buildcfg.h	30;"	d
+BTM_DEF_LOCAL_NAME	RIoTboard_6solo/bluetooth/bdroid_buildcfg.h	22;"	d
+BUILD_ID	RIoTboard_6solo/build_id.mk	/^export BUILD_ID=1.0.6$/;"	m
+BUILD_NUMBER	RIoTboard_6solo/build_id.mk	/^export BUILD_NUMBER=20161108$/;"	m
+BUILD_TARGET_FS	RIoTboard_6solo/BoardConfig.mk	/^BUILD_TARGET_FS ?= ext4$/;"	m
+BUILD_TARGET_LOCATION	RIoTboard_6solo/BoardConfig.mk	/^BUILD_TARGET_LOCATION ?= emmc$/;"	m
+IMX_CAMERA_HAL_V2	RIoTboard_6solo/BoardConfig.mk	/^IMX_CAMERA_HAL_V2 := true$/;"	m
+LOCAL_PATH	RIoTboard_6solo/AndroidBoard.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+NUM_FRAMEBUFFER_SURFACE_BUFFERS	RIoTboard_6solo/BoardConfig.mk	/^NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3$/;"	m
+PRODUCT_MODEL	RIoTboard_6solo/BoardConfig.mk	/^PRODUCT_MODEL := RIoTboard-MX6SOLO$/;"	m
+SENSOR_MMA8451	RIoTboard_6solo/BoardConfig.mk	/^SENSOR_MMA8451 := true$/;"	m
+TARGET_BOOTLOADER_BOARD_NAME	RIoTboard_6solo/BoardConfig.mk	/^TARGET_BOOTLOADER_BOARD_NAME := RIoTboard$/;"	m
+TARGET_BOOTLOADER_CONFIG	RIoTboard_6solo/BoardConfig.mk	/^TARGET_BOOTLOADER_CONFIG := mx6solo_RIoTboard_android_config$/;"	m
+TARGET_MKUBIFS_ARGS	RIoTboard_6solo/BoardConfig.mk	/^TARGET_MKUBIFS_ARGS := -m 4096 -e 516096 -c 4096 -x none$/;"	m
+TARGET_RECOVERY_FSTAB	RIoTboard_6solo/BoardConfig.mk	/^TARGET_RECOVERY_FSTAB = device\/fsl\/RIoTboard_6solo\/fstab.freescale.emmc$/;"	m
+TARGET_RECOVERY_FSTAB	RIoTboard_6solo/BoardConfig.mk	/^TARGET_RECOVERY_FSTAB = device\/fsl\/RIoTboard_6solo\/fstab.freescale.sdmmc$/;"	m
+TARGET_RECOVERY_FSTAB	RIoTboard_6solo/BoardConfig.mk	/^TARGET_RECOVERY_FSTAB = device\/fsl\/RIoTboard_6solo\/fstab_nand.freescale$/;"	m
+TARGET_SELECT_KEY	RIoTboard_6solo/BoardConfig.mk	/^TARGET_SELECT_KEY := 28$/;"	m
+TARGET_UBIRAW_ARGS	RIoTboard_6solo/BoardConfig.mk	/^TARGET_UBIRAW_ARGS := -m 4096 -p 512KiB $(UBI_ROOT_INI)$/;"	m
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED	RIoTboard_6solo/BoardConfig.mk	/^TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true$/;"	m
+UBI_ROOT_INI	RIoTboard_6solo/BoardConfig.mk	/^UBI_ROOT_INI := device\/fsl\/RIoTboard_6solo\/ubi\/ubinize.ini$/;"	m
+USE_ATHR_GPS_HARDWARE	RIoTboard_6solo/BoardConfig.mk	/^USE_ATHR_GPS_HARDWARE := true$/;"	m
+USE_GPU_ALLOCATOR	RIoTboard_6solo/BoardConfig.mk	/^USE_GPU_ALLOCATOR := true$/;"	m
+USE_ION_ALLOCATOR	RIoTboard_6solo/BoardConfig.mk	/^USE_ION_ALLOCATOR := false$/;"	m
+USE_QEMU_GPS_HARDWARE	RIoTboard_6solo/BoardConfig.mk	/^USE_QEMU_GPS_HARDWARE := false$/;"	m
+WIFI_DRIVER_MODULE_NAME	RIoTboard_6solo/BoardConfig.mk	/^WIFI_DRIVER_MODULE_NAME         := "8723au"$/;"	m
+WIFI_DRIVER_MODULE_PATH	RIoTboard_6solo/BoardConfig.mk	/^WIFI_DRIVER_MODULE_PATH         := "\/system\/lib\/hw\/8723au.ko"$/;"	m
+WPA_SUPPLICANT_VERSION	RIoTboard_6solo/BoardConfig.mk	/^WPA_SUPPLICANT_VERSION       := VER_0_8_UNITE$/;"	m
+_BDROID_BUILDCFG_H	RIoTboard_6solo/bluetooth/bdroid_buildcfg.h	20;"	d
